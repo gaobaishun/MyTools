@@ -1,5 +1,7 @@
 package Utils;
 
+import javax.servlet.ServletInputStream;
+import javax.servlet.http.HttpServletRequest;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -153,8 +155,20 @@ public class HttpUtils {
         }
 
         return result;
+    }
 
 
+
+    public static String servletInputStreamToString(ServletInputStream servletInputStream) throws IOException {
+
+        StringBuilder reqContent = new StringBuilder();
+        byte[] b = new byte[1024];
+        int lens;
+        while ((lens = servletInputStream.read(b)) > 0) {
+            reqContent.append(new String(b, 0, lens));
+        }
+
+        return reqContent.toString();
     }
 
     public static void main(String[] args) {

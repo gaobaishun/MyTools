@@ -6,6 +6,7 @@ package com.server.servletserver.servlets;
 import Entity.User;
 import Enumration.ResponseMessageStatus;
 import Message.LoginRespMessage;
+import Utils.HttpUtils;
 import com.alibaba.fastjson.JSONObject;
 import com.server.servletserver.dao.UserDao;
 import com.server.servletserver.utils.DBConfig;
@@ -47,29 +48,11 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println(req.getAuthType());
-        System.out.println(req.getAttributeNames().toString());
-        ServletInputStream servletInputStream = req.getInputStream();
 
-        StringBuilder content = new StringBuilder();
-        byte[] b = new byte[1024];
-        int lens;
-        while ((lens = servletInputStream.read(b)) > 0) {
-            content.append(new String(b, 0, lens));
-        }
-
-        String strContent = content.toString(); // 请求体内容
-
-//        try {
-//            ResultSet resultSet=JDBC.simpleQuery(
-//                    "select  from ");
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+        //String strContent =  HttpUtils.servletInputStreamToString(servletInputStream); // 请求体内容
+        String strContent=(String) req.getAttribute("requestBody");
         System.out.println("请求体中的内容："+strContent);
-        //String jsonString= JSONObject.toJSONString(strContent);
 
-        JSONObject.toJSON(strContent);
         User user = JSONObject.parseObject(strContent,User.class);
         System.out.println("user:"+user);
 
@@ -95,8 +78,8 @@ public class LoginServlet extends HttpServlet {
             loginRespMessage.setResponseMessageStatus(ResponseMessageStatus.FAIL);
         }
 
+
         PrintWriter printWriter=resp.getWriter();
-        //printWriter.print(JSONObject.toJSON(strContent));
         printWriter.print(JSONObject.toJSON(loginRespMessage));
 
     }

@@ -22,4 +22,39 @@
         <servlet-name>Login</servlet-name>
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Menu</servlet-name>
+        <servlet-class>com.server.servletserver.servlets.MenuServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Menu</servlet-name>
+        <url-pattern>/menu/*</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>LogFilter</filter-name>
+        <filter-class>com.server.servletserver.Filter.LogFilter</filter-class>
+        <init-param>
+            <param-name>test</param-name>
+            <param-value>test1</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>LogFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+    <!--可以通过servletcontext来进行读取context-param-->
+    <context-param>
+        <param-name>param2</param-name>
+        <param-value>value2</param-value>
+    </context-param>
+    <context-param>
+        <param-name>param1</param-name>
+        <param-value>value1</param-value>
+    </context-param>
+
 </web-app>

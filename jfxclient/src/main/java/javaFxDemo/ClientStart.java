@@ -83,11 +83,11 @@ public class ClientStart extends Application{
                 user.setUserName(userName);
                 user.setPassword(password);
 
-                String param= JSONObject.toJSONString(user);
-                String result=HttpUtils.postRequest("http://localhost:8081/Servlet_war_exploded2/login",
-                        param);
-                LoginRespMessage respMessage=JSONObject.parseObject(result,LoginRespMessage.class);
-                System.out.println(respMessage.toString());
+//                String param= JSONObject.toJSONString(user);
+//                String result=HttpUtils.postRequest("http://localhost:8081/Servlet_war_exploded2/login",
+//                        param);
+//                LoginRespMessage respMessage=JSONObject.parseObject(result,LoginRespMessage.class);
+//                System.out.println(respMessage.toString());
                 primaryStage.setScene(new Scene(new LoginUI()));
             }
         });
