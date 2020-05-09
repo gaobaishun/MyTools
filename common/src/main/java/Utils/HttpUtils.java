@@ -168,6 +168,10 @@ public class HttpUtils {
         return result;
     }
 
+    public static Object getRequest(String url,Class claz){
+        String result=getRequest(url);
+        return JSONObject.parseObject(result,claz);
+    }
 
 
     public static String servletInputStreamToString(ServletInputStream servletInputStream) throws IOException {
