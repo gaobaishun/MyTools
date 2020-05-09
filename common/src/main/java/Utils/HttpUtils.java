@@ -1,5 +1,9 @@
 package Utils;
 
+import com.alibaba.fastjson.JSONObject;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
 import java.io.*;
@@ -13,8 +17,10 @@ import java.net.URL;
  * imformation：发送http请求的工具
  */
 public class HttpUtils {
-
+    private static Logger logger= LogManager.getLogger(HttpUtils.class);
     public static String postRequest(String httpUrl,String param){
+        logger.info("Post请求url：",httpUrl);
+        logger.info("");
         HttpURLConnection connection = null;
         InputStream is = null;
         OutputStream os = null;
@@ -90,6 +96,11 @@ public class HttpUtils {
             connection.disconnect();
         }
         return result;
+    }
+
+    public static Object postRequest(String httpUrl,String param,Class cla){
+        String result=postRequest(httpUrl,param);
+        return JSONObject.parseObject(result,cla);
     }
 
     public static String getRequest(String httpurl){

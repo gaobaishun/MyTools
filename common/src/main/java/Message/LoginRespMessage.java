@@ -7,4 +7,14 @@ package Message;
  */
 public class LoginRespMessage extends ResponseMessage{
 
+
+    private int status=-1;
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = this.getResponseMessageStatus().getCode();
+    }
 }
