@@ -6,90 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="295c86b8-52ce-4062-a65f-753ed8e23ef7" name="Default Changelist" comment="提交修改，准备将maven换位gradle">
-      <change afterPath="$PROJECT_DIR$/jfxclient/src/main/java/ClientStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfxclient/src/main/java/client/ClientContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfxclient/src/main/java/client/StageSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfxclient/src/main/resources/base.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfxclient/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfxclient/src/main/resources/uri.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfxclient/src/test/JSONTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfxclient/src/test/LoggerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfxclient/src/test/RequestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/dao/MenuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servletserver/src/main/test/DBTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servletserver/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="295c86b8-52ce-4062-a65f-753ed8e23ef7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/Entity/MenuDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/Entity/MenuDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/src/main/java/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/src/main/java/UI/LoginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/src/main/java/UI/LoginUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/src/main/java/UI/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/src/main/java/UI/MainUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/src/main/java/javaFxDemo/TreeNodeViewDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/src/main/java/javaFxDemo/TreeNodeViewDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/servlets/MenuServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/servlets/MenuServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/utils/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/utils/JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/src/main/resource/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/src/main/resource/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
-    <list id="6ec7244e-1c05-437f-beeb-200da8dc68f4" name="class" comment="">
-      <change beforePath="$PROJECT_DIR$/common/target/classes/Entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/Entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/Enumration/ResponseMessageStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/Enumration/ResponseMessageStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/Message/LoginRespMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/Message/LoginRespMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/Message/ResponseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/Message/ResponseMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/Utils/HttpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/Utils/HttpUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/Startter.class" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/target/classes/Startter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/UI/LoginUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/target/classes/UI/LoginUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/UI/LoginUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/target/classes/UI/LoginUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/ClientStart$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/ClientStart$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/ClientStart$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/ClientStart$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/ClientStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/ClientStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$Cam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone$Cube.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/classes/javaFxDemo/Xylophone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/jfxclient-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/target/jfxclient-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/jfxclient/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfxclient/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/test/jdbcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/test/jdbcTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/utils/DBConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/utils/DBConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/utils/JDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/classes/com/server/servletserver/utils/JDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/servletserver.war" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/servletserver.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/test/jdbcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/test/jdbcTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/utils/DBConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/utils/DBConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/utils/JDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/classes/com/server/servletserver/utils/JDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/servletserver/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servletserver/target/servletserver/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servletserver/target/servletserver/index.jsp" afterDir="false" />
-    </list>
+    <list id="6ec7244e-1c05-437f-beeb-200da8dc68f4" name="class" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/Entity/MenuDO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jfxclient/src/main/java/javaFxDemo/ClientStart.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/Utils/HttpUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3680">
-              <caret line="169" selection-start-line="169" selection-end-line="169" />
+            <state relative-caret-position="3795">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
             </state>
           </provider>
         </entry>
@@ -143,16 +54,7 @@
         <entry file="file://$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/servlets/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1265">
-              <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="71" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/servlets/MenuServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1334">
-              <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+              <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -167,19 +69,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/servletserver/src/main/resource/log4j2.xml">
+        <entry file="file://$PROJECT_DIR$/servletserver/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="1173">
+              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/servletserver/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+            <state relative-caret-position="480">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -201,6 +103,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -226,6 +133,55 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="servletserver Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="servletserver Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="servletserver Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -244,42 +200,6 @@
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyTools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyTools" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyTools" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyTools" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="B_jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyTools" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyTools" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="B" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyTools" type="462c0819:PsiDirectoryNode" />
-              <item name="servletserver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -465,6 +385,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RequestTest.requestConvert" />
+        <item itemvalue="JUnit.RequestTest.requestConvert" />
+        <item itemvalue="JUnit.RequestTest.requestConvert" />
       </list>
     </recent_temporary>
   </component>
@@ -517,7 +439,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9070000" />
+    <option name="totallyTimeSpent" value="9387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
@@ -533,7 +455,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32906976" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -562,7 +484,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交修改，准备将maven换位gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交修改，准备将maven换位gradle" />
+    <MESSAGE value="同步git内容到分支20200707maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="同步git内容到分支20200707maven" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,6 +641,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/servlets/MenuServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servletserver/src/main/resource/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jfxclient/src/main/java/javaFxDemo/ClientStart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -734,22 +671,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/Utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3680">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        <state relative-caret-position="3795">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/servlets/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1265">
-          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="71" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servletserver/src/main/java/com/server/servletserver/servlets/MenuServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -760,20 +690,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servletserver/target/classes/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servletserver/src/main/resource/log4j2.xml">
+    <entry file="file://$PROJECT_DIR$/servletserver/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="1173">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servletserver/pom.xml">
+    <entry file="file://$PROJECT_DIR$/servletserver/target/classes/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        <state relative-caret-position="480">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
