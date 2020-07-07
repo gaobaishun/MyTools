@@ -3,6 +3,7 @@ package UI;
 import Entity.User;
 import Message.LoginRespMessage;
 import Utils.HttpUtils;
+import client.StageSingle;
 import com.alibaba.fastjson.JSONObject;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -15,6 +16,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
+import javafx.stage.Stage;
 
 /**
  * @Author gaobaishun
@@ -65,10 +67,14 @@ public class LoginUI extends GridPane {
                     user.setPassword(password);
 
                     String param= JSONObject.toJSONString(user);
-                    String result= HttpUtils.postRequest("http://localhost:8081/Servlet_war_exploded2/login",
+                    String result= HttpUtils.postRequest("http://localhost:8081/servletserver_war/login",
                             param);
                     LoginRespMessage respMessage=JSONObject.parseObject(result,LoginRespMessage.class);
                     System.out.println(respMessage.toString());
+                    Stage primaryStage=StageSingle.getStage();
+                    primaryStage.setScene(null);
+//                    Stage stage=(Stage)threadLocal.get();
+                    //stage.setScene(null);
                     //primaryStage.setScene(null);
                 }
             });

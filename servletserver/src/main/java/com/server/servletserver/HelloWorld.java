@@ -5,6 +5,8 @@ package com.server.servletserver; /**
  */
 // 导入必需的 java 库
 
+import org.apache.logging.log4j.core.config.plugins.util.ResolverUtil;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -21,6 +23,8 @@ public class HelloWorld extends HttpServlet {
     {
         // 执行必需的初始化
         message = "Hello World";
+
+
     }
 
     public void doGet(HttpServletRequest request,

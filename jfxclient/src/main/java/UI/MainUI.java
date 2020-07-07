@@ -1,7 +1,14 @@
 package UI;
 
+import Entity.MenuDO;
+import UI.treetableview.TreeNode;
+import Utils.HttpUtils;
+import client.ClientContext;
 import javafx.scene.Node;
+import javafx.scene.control.TreeTableView;
 import javafx.scene.layout.BorderPane;
+
+import java.util.List;
 
 /**
  * @Author gaobaishun
@@ -9,6 +16,8 @@ import javafx.scene.layout.BorderPane;
  * imformation：主页UI
  */
 public class MainUI extends BorderPane{
+
+    private TreeTableView<String> treeTableView;
 
 
     public MainUI(){
@@ -34,7 +43,7 @@ public class MainUI extends BorderPane{
 
     private Node addLeft() {
 
-        return null;
+        return treeTableView;
     }
 
     private Node addBottom() {
@@ -45,7 +54,18 @@ public class MainUI extends BorderPane{
         return null;
     }
 
+    public void loadLeft(){
 
+    }
 
+    private List<TreeNode<String>> getRootList(){
+        String httpUrl=ClientContext.getValueFromProperitiesByKey("base","baseUrl")
+                +ClientContext.getValueFromProperitiesByKey("uri","menu");
+        List<MenuDO> menuList = (List<MenuDO>)HttpUtils.getRequest(httpUrl,List.class);
+        return null;
+    }
 
+    public static void main(String[] args) {
+
+    }
 }

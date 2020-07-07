@@ -31,7 +31,8 @@ public class LoginServlet extends HttpServlet {
     UserDao userDao=null;
     @Override
     public void init(){
-        System.out.println("初始化");
+        //20200508
+        System.out.println("初始化123");
         //先加载DB配置文件
         DBConfig.Loading();
 

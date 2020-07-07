@@ -9,6 +9,8 @@ import javafx.scene.control.TableColumn;
 //import javafx.scene.control.TreeNode;
 import javafx.scene.control.TreeTableColumn;
 import javafx.scene.control.TreeTableView;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 import java.util.ArrayList;
@@ -22,8 +24,9 @@ import java.util.List;
 public class TreeNodeViewDemo extends Application {
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Tree Table View Samples");
-        final Scene scene = new Scene(new Group(), 600, 400);
-        Group sceneRoot = (Group)scene.getRoot();
+
+
+        BorderPane borderPane=new BorderPane();
 
         //Creating tree items
         final TreeNode<String> childNode1 = new TreeNode<>("Child Node 1");
@@ -43,6 +46,7 @@ public class TreeNodeViewDemo extends Application {
         //Creating a column
         TreeTableColumn<String,String> column = new TreeTableColumn<String, String>("Column");
         column.setPrefWidth(150);
+        column.setMaxWidth(150);
 
         //Defining cell content
         column.setCellValueFactory((TreeTableColumn.CellDataFeatures<String, String> p) ->
@@ -52,8 +56,18 @@ public class TreeNodeViewDemo extends Application {
         final TreeTableView<String> treeTableView = new TreeTableView<>(root);
         treeTableView.getColumns().add(column);
         treeTableView.setPrefWidth(152);
+        treeTableView.setMaxWidth(400);
+        treeTableView.autosize();
         treeTableView.setShowRoot(true);
-        sceneRoot.getChildren().add(treeTableView);
+//        final Scene scene = new Scene(new Group(), 600, 400);
+        Scene scene=new Scene(borderPane,600,400);
+        //Group sceneRoot = (Group)scene.getRoot();
+
+        borderPane.setLeft(treeTableView);
+        //scene.setRoot(borderPane);
+
+        //sceneRoot.getChildren().add(treeTableView);
+
         primaryStage.setScene(scene);
         primaryStage.show();
     }

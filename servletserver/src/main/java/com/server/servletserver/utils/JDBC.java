@@ -11,8 +11,13 @@ import java.sql.*;
 public class JDBC {
     private static Connection connection;
     public  static void  createCon(){
+        if(connection!=null){
+            return;
+        }
+
         try {
             Class.forName("com.mysql.jdbc.Driver");
+
             connection= DriverManager.getConnection(
                         DBConfig.getValueByKey("url"),
                         DBConfig.getValueByKey("user"),
@@ -34,6 +39,7 @@ public class JDBC {
     public static void closeJDBC() throws Exception{
 
             connection.close();
+            connection=null;
 
     }
 }

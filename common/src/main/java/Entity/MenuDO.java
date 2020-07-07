@@ -1,11 +1,13 @@
 package Entity;
 
+import java.io.Serializable;
+
 /**
  * @Author gaobaishun
  * @Date 2020-04-28 12:56
  * imformation：
  */
-public class MenuDO {
+public class MenuDO implements Serializable {
     private int menuId;
     private String menuName;
     /**
@@ -35,5 +37,14 @@ public class MenuDO {
 
     public void setFatherId(int fatherId) {
         this.fatherId = fatherId;
+    }
+
+    @Override
+    public String toString() {
+        return "MenuDO{" +
+                "menuId=" + menuId +
+                ", menuName='" + menuName + '\'' +
+                ", fatherId=" + fatherId +
+                '}';
     }
 }
