@@ -4,9 +4,6 @@ package com.server.servletserver; /**
  * imformation：
  */
 // 导入必需的 java 库
-
-import org.apache.logging.log4j.core.config.plugins.util.ResolverUtil;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
